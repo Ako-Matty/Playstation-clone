@@ -1,0 +1,382 @@
+body{
+    background-color: white;
+    margin: 0px;
+    width: 1920px
+
+}
+
+
+
+/* navbars */
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+     
+}
+
+#sonybar {
+    background-color: black;
+    height: 36px;
+    display: flex;  
+    }
+
+
+    #sonyNavBarLogo {
+        width: 75px;
+        display: flex;
+        justify-content: right;
+    }
+   
+    
+
+/* 2ndnavbar */
+
+
+.navbar2 {
+    background-color: rgb(255, 255, 255);
+    height: 64px;
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.socialBar {
+
+    width: 1000px;
+    display: flex;
+    justify-content: right;
+   
+    
+}
+
+
+
+
+#PSNavBarLogo {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+#navLinkWrapper a {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 1px;
+    margin: 0px 7px;
+   
+
+    
+}
+
+#SignInButton {
+    width: 80px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+
+    
+    
+}
+
+
+.search {
+
+    width: 200px;
+    height: ;
+    padding: 2%;
+    display: flex;
+    
+
+    
+    color: blue;
+}
+
+#box {
+
+    width: 120px;
+    height: 40px;
+}
+
+.fa-search {
+
+    width: 500px;
+}
+
+
+
+.container {
+    position: relative;
+    color: white;
+    width: 12.5px;
+    text-align:center;
+    display: flex;
+
+
+}
+
+
+
+/* Homeimagewithtext  (note: unsure how to auto fit the image width to every monitor) */
+
+
+#homeimage {
+
+width: 1920px;
+}
+
+
+
+.Centered {
+    position: absolute;
+    width: 322px;
+    top: 70%;
+    left: 2370%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-weight: 400%;
+    
+}
+
+#Startbrowsing {
+    border-radius: 25px;
+    padding: 8px;
+    font-size: medium;
+    
+}
+
+/* Image Icons */
+
+.RowOfImages{
+
+    padding-top: 50px;
+    
+    
+    display: flex;
+    justify-content: space-evenly
+}
+
+#imageBoxes {
+
+    width: 300px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 25px;
+    background:;
+    border: 5px solid blue ;
+    object-fit: cover;
+    }
+
+#JanuaryBox {
+    width: 300px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 25px;
+    background:;
+    border: 5px solid blue ;
+    object-fit: cover;
+
+
+}
+
+
+
+#fifabox {
+    width: 300px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 25px;
+    background:;
+    border: 5px solid blue ;
+    object-fit: cover;
+}
+
+
+
+#GodOfWarBox {
+    width: 300px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 25px;
+    background:;
+    border: 5px solid blue ;
+    object-fit: cover;
+
+}
+
+
+
+#Spellbound {
+    width: 300px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 25px;
+    background:;
+    border: 5px solid blue ;
+    object-fit: cover;
+
+}
+
+
+
+/* ps5box image*/
+
+.Playstation5 {
+
+    /* display: flex;
+    justify-content: center; */
+    width: 1286px;
+    height: ;
+    padding: 80px;
+}
+
+
+#Content {
+    
+    display: flex;
+    justify-content:left
+    width: 200px
+    padding: 10%;
+    height: ;
+    
+    
+
+
+    
+}
+
+.TextBox {
+    
+    font-size: 26px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 34px;
+    margin-block-end: 32px;
+    width: 287px;
+    padding: 20%;
+
+    
+}
+
+
+#Learnmorebutton {
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    font-size: medium;
+}
+
+
+#ps5consoleimage {
+
+    width: 874px;
+    padding: 1px;
+    
+}
+
+
+
+
+/* Small Boxes */
+
+
+
+.RowOfProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-top: 1px;
+  
+}
+
+
+.PS5box {
+
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 190.5px;
+    height: 150px;
+    padding: 20px;
+    text-align:center;
+    border: 3px solid blue;
+    border-radius: 10%;
+
+
+}
+
+
+#TextCentered {
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#PS5IconConsoleBox {
+    width: 60px;
+    height: 80px;
+    padding: 10px;
+    
+}
+
+
+
+
+.dualsensecontrollers {
+
+    position: ab;
+    color: rgb(0, 0, 0);
+    width: 200.5px;
+    height: 150px;
+    padding: 20px;
+    text-align:center;
+    border: 3px solid blue;
+    border-radius: 10%;
+
+}
+
+
+#Controllers {
+
+    width: 100px;
+    height: 60px;
+    padding: 20px; 
+}
+
+.headsets {
+
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 200.5px;
+    height: 150px;
+    padding: 20px;
+    text-align:center;
+    border: 3px solid blue;
+    border-radius: 10%;
+}
+
+
+
+#pulseheadsets {
+
+    width: 100px;
+    height: 60px;
+    padding: 20px;   
+}
+
+@media (max-width: 1200px)
+
+
